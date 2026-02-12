@@ -2,68 +2,45 @@
 
 A complete web-based identity transformation game using method acting and augmented reality.
 
-## 🎮 Quick Start
+## 🚀 **Quick Start (90 seconds)**
 
 ```bash
-# Clone and setup
-git clone https://github.com/IceeSwirl/arg-life-game.git
-cd arg-life-game
+# 1. Clone the game
+git clone https://github.com/IceeSwirl/arg-life-transformation.git
+cd arg-life-transformation
+
+# 2. Install dependencies
 npm install
 cd client && npm install && cd ..
 
-# Start development
+# 3. Start the game
 npm run dev
-
-# Seed database
-node seed.js
 ```
 
-## 📱 Features
+## 🎯 **First Identity Test (5 minutes)**
 
-- **Identity Transformation**: 4 persona templates with method acting challenges
-- **AR Integration**: WebXR camera overlays for real-world gamification
-- **Progress Tracking**: XP, levels, streaks, challenge completion
-- **Real-time Updates**: Socket.io for live progress
-- **Mobile Ready**: PWA installable on phones
+1. **Open** http://localhost:3000
+2. **Register** → Create account
+3. **Pick Identity** → Choose "High Fashion Influencer"
+4. **First Challenge** → "Style your current outfit for runway"
+5. **Complete** → Take photo with AR overlay, upload proof
+6. **Level up** → Unlock next challenges
 
-## 🎯 Identity Templates
+## 📱 **Access Points**
+- **Frontend**: http://localhost:3000
+- **Backend**: http://localhost:5000
+- **Mobile**: Install as PWA from browser
 
-1. **High Fashion Influencer** - Style challenges, runway styling
-2. **Elite Athlete** - 5AM routines, meal prep, performance mindset
-3. **Tech Entrepreneur** - Pitching, networking, productivity systems
-4. **Master Craftsman** - Skill development, workspace optimization
+## 🔥 **Ready Identities**
+- **High Fashion Influencer** - Style challenges, runway styling
+- **Elite Athlete** - 5AM routines, meal prep, performance mindset
+- **Tech Entrepreneur** - Pitching, networking, productivity systems
+- **Master Craftsman** - Skill development, workspace optimization
 
-## 🚀 Tech Stack
-
-- **Frontend**: React + Three.js + WebXR
-- **Backend**: Node.js + Express + MongoDB
-- **Real-time**: Socket.io
-- **Authentication**: JWT + bcrypt
-- **Database**: MongoDB with Mongoose
-
-## 🔄 Game Loop
-
-1. **Choose Identity** - Select transformation persona
-2. **Complete Challenges** - Daily method acting tasks
-3. **AR Verification** - Photo/video proof with AR overlays
-4. **Level Up** - Unlock harder challenges
-5. **Identity Lock-in** - Permanent behavioral changes
-
-## 📊 Development Commands
-
-```bash
-npm run dev        # Start both server and client
-npm run seed       # Populate test data
-npm run build      # Production build
-npm start          # Start production server
-```
-
-## 🎨 Custom Identities
-
-Add new personas by modifying `seed.js` and creating challenge templates.
-
-## 📱 Mobile Installation
-
-The app is PWA-ready - install directly to your phone from the browser.
+## 🎮 **Game Features**
+- **AR Challenges** - WebXR camera integration
+- **Real-time Progress** - XP, levels, streaks
+- **Social Verification** - Photo/video proof system
+- **Identity Lock-in** - Permanent behavioral changes
 
 **Ready to transform your life through method acting!**
