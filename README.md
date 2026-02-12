@@ -1,44 +1,64 @@
 # ARG Life Transformation Game
 
-A web-based augmented reality game where players method act into their desired future self through progressive identity challenges.
+A complete web-based identity transformation game using method acting and augmented reality.
 
-## Core Game Loop
+## 🚀 **Quick Start (90 seconds total)**
 
-1. **Identity Selection** - Choose target persona (future self)
-2. **Method Acting Challenges** - Daily tasks that reinforce new identity
-3. **Reality Augmentation** - AR overlays that gamify real-world actions
-4. **Progress Tracking** - XP system tied to identity adoption
-5. **Social Validation** - Peer verification of transformation
-6. **Identity Lock-in** - Permanent behavioral changes become "unlocked"
+### **Step 1: Get the Game**
+```bash
+git clone https://github.com/IceeSwirl/arg-life-transformation.git
+cd arg-life-transformation
+```
 
-## Tech Stack
+### **Step 2: Install Dependencies**
+```bash
+npm install
+cd client && npm install && cd ..
+```
 
-- **Frontend**: React + Three.js for AR
+### **Step 3: Start Development**
+```bash
+npm run dev
+```
+
+**Open your browser:** http://localhost:3000
+
+### **Step 4: First Identity Test (5 minutes)**
+1. **Register** → Create account
+2. **Pick Identity** → Choose "High Fashion Influencer"  
+3. **First Challenge** → "Style your current outfit for runway"
+4. **Complete** → Take photo with AR overlay, upload proof
+5. **Level up** → Unlock next challenges
+
+## 📱 **Access Points**
+- **Frontend**: http://localhost:3000
+- **Backend**: http://localhost:5000  
+- **Mobile**: Install as PWA from browser
+
+## 🎯 **Ready Identities**
+- **High Fashion Influencer** - Style challenges, runway styling
+- **Elite Athlete** - 5AM routines, meal prep, performance mindset
+- **Tech Entrepreneur** - Pitching, networking, productivity systems
+- **Master Craftsman** - Skill development, workspace optimization
+
+## 🎮 **Game Features**
+- **AR Challenges** - WebXR camera integration
+- **Real-time Progress** - XP, levels, streaks
+- **Social Verification** - Photo/video proof system
+- **Identity Lock-in** - Permanent behavioral changes
+
+## 🛠️ **Tech Stack**
+- **Frontend**: React + Three.js + WebXR
 - **Backend**: Node.js + Express + MongoDB
-- **Real-time**: Socket.io for live challenges
-- **AR**: WebXR + device camera integration
-- **PWA**: Installable as mobile app
+- **Real-time**: Socket.io
+- **Authentication**: JWT + bcrypt
 
-## Game Mechanics
+## 🔄 **Development Commands**
+```bash
+npm run dev        # Start both server and client
+npm run seed       # Populate test data
+npm run build      # Production build
+npm start          # Start production server
+```
 
-### Identity Templates
-- High Fashion Influencer
-- Elite Athlete
-- Successful Entrepreneur
-- Master Craftsman
-- Underground Artist
-
-### Challenge Types
-- **Micro-habits** (2-min identity reinforcing actions)
-- **Social experiments** (interact as new persona)
-- **Environmental design** (rearrange spaces)
-- **Skill acquisition** (learn craft-specific abilities)
-- **Network building** (connect with target community)
-
-### Progression System
-- **Level 1**: Identity research & planning
-- **Level 2**: Micro-habit installation
-- **Level 3**: Social persona testing
-- **Level 4**: Environmental transformation
-- **Level 5**: Community integration
-- **Level 6**: Identity lock-in
+**Ready to transform your life through method acting!**
